@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Gidugu&family=Gothic+A1:wght@100;200&family=Gowun+Batang&family=Gowun+Dodum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #F3F3F3;
+    border-radius: 55px;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 57px 107px;
+    gap: 60px;
+}
+
+.menu-navegação{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 85px;
+    position: absolute;
+}
+
+.cabeçalho-imagem:hover{
+    text-shadow: 0.5px 0.5px 0.8px rgb(245, 159, 0);
+}
+
+.menu-navegação-item{
+    color: #000000;
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-navegação-item:hover{
+    color: #000000;
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0.3px 0.3px 0.5px black;
+}
+
+.conteúdo{
+    border-top: 2px solid #DBDBDB;
+}
+
+.conteúdo-principal{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteúdo-principal-escrito{
+    filter: drop-shadow(2px 6px 6px rgba(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+}
+
+.conteúdo-principal-escrito-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteúdo-principal-escrito-título{
+    color: #000000;
+    font-family: 'Gidugu', sans-serif;
+    font-size: 108px;
+    font-weight: 400;
+    position: absolute;
+    width: 479.51px;
+    height: 188.04px;
+    left: 118px;
+    top: 75px;
+    
+}
+
+.conteúdo-principal-escrito-subtítulo{
+    color: #E96D3A;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 112px;
+    font-weight: 400;
+    position: absolute;
+    width: 441.9px;
+    height: 135.81px;
+    left: 113px;
+    top: 200.14px;
+}    
+.conteúdo-principal-escrito-parágrafo{
+    color: #000000;
+    font-family: 'Gowun Batang', serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    width: 433.54px;
+    height: 185.95px;
+    left: 118px;
+    top: 380.05px;
+    
+}
+
+.conteúdo-principal-escrito-info-preço{
+    color: #3F3F3F;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 65px;
+    text-transform: capitalize;
+    position: absolute;
+    width: 141px;
+    height: 65px;
+    left: 119px;
+    top: 530px;
+    
+}
+
+.conteúdo-principal-escrito-info-botão{  
+    width: 484.51px; 
+    border-radius: 52px;
+    border: none;
+    box-shadow: 3px 3px 8px black;
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 331px;
+    top: 540px;
+}
+
+.conteúdo-principal-escrito-info-botão:hover{
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 331px;
+    top: 540px;
+    border-radius: 52px;
+    border: none;
+    box-shadow: 3px 3px 8px black;
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+    color: #F3F3F3;
+    transition: 0.2s all;
+}
+
+.conteúdo-secundário-imagem{
+    background-color: #ffc8b2;
+    border-radius: 585.478px;
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    left: 770px;
+    top: 10px;  
+}
+
+.conteúdo-secundário-imagem-tênis{
+    position: absolute;
+    width: 1280px;
+    height: 1396.89px;
+    left: -300px;
+    top: -220px;
+}
