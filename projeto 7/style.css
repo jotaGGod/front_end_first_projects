@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Gidugu&family=Gothic+A1:wght@100;200&family=Gowun+Batang&family=Gowun+Dodum&family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Gowun Batang', serif;
+    background-image: linear-gradient(45deg, cyan, yellow);
+    font-size: 21px;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.inputUser{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#submit{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+
+#submit:hover{
+    box-shadow: 2px 2px 5px rgb(12, 12, 54);
+    text-shadow: 2px 2px 5px rgb(12, 12, 54);
+    background-color: rgb(21, 96, 172);
+    cursor: pointer;
+    transition: 0.3s all;
+}
